@@ -1,0 +1,32 @@
+SELECTOR{
+    PARAMETER: VALUE;
+    PARAMETER: VALUE;
+    PARAMETER: VALUE;
+    PARAMETER: VALUE;
+    PARAMETER: VALUE;
+    PARAMETER: VALUE;
+}
+body{
+font-family: 'Notable', sans-serif;
+}
+
+h1{
+    colour:rgb(50, 5, 252);
+    font-size: 26px;
+    font-family: 'Arvo', serif;
+}
+p{
+    color: rgb(9, 245, 87);
+    font-size: 16px;
+    text-align: center;
+}
+
+.one{
+    background-color: darksalmon;
+    margin-top: 30px;
+    margin-bottom: 20;
+}
+
+two{
+    background-color: dimgray;
+}
