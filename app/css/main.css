@@ -1,0 +1,22 @@
+ody{
+    background-color: blueviolet;
+    font-family: 'Cherry Swash', cursive;
+    
+}
+.container{
+    width: 800px;  
+    margin: auto;
+    background-color: violet;
+    padding: 25px;
+   
+}
+table{
+    
+    transform-origin: 15px;
+    text-align: center;
+    text-shadow: violet;
+    background-color: tomato;
+}
+body{
+    line-height: 1;
+}

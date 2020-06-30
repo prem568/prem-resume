@@ -1,0 +1,19 @@
+body{
+    line-height: 1;
+}
+
+table{
+    
+    transform-origin: 15px;
+    text-align: center;
+    text-shadow: violet;
+    background-color: tomato;
+}
+.container{
+    width: 500px;  
+    margin: auto;
+    background-color: violet;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+
