@@ -1,22 +1,125 @@
-ody{
-    background-color: blueviolet;
-    font-family: 'Cherry Swash', cursive;
-    
+body{
+    line-height: 1;
 }
-.container{
-    width: 800px;  
-    margin: auto;
-    background-color: violet;
-    padding: 25px;
-   
-}
+
 table{
     
     transform-origin: 15px;
     text-align: center;
     text-shadow: violet;
-    background-color: tomato;
+    background-color: rgb(63, 241, 28);
 }
-body{
-    line-height: 1;
+.container{
+    width: 500px;  
+    margin: auto;
+    background-color: violet;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+
+header h1{
+    font-size: 45px;  
+    font-family: sans-serif;
+    padding: 15px;
+}
+header .connect{
+    background-color: rgb(6, 233, 44);
+    padding: 18px;
+    margin-bottom: auto;
+}
+header .connect a:link{
+
+}
+header .connect a:hover{
+
+}
+header .connect a:active{
+
+}
+header .connect a:visited{
+    
+}
+header .container{
+    border: yellow;
+    margin: 25px;
+
+}
+.information{
+    border: solid 2px;
+    margin: 30px;
+
+}
+.information h3{
+    background-color: violet;
+    padding: 15px;
+
+}
+
+}
+.information p,
+.information table{
+padding: 25px 15px;
+}
+.information .info-data{
+    padding: 25px 15px;
+    font-size: 20px;
+}
+.table-1{
+
+}
+.table-1 tr{
+
+}
+.table-1 td{
+    padding: 10px;
+    margin: 15px;
+    background-color: sienna;
+}
+.table-1 th{
+    background: teal;
+    padding: 10px;
+    border: goldenrod;
+}
+.ordered-list-1{
+    list-style: lower-alpha;
+    list-style-position: inside;
+}
+.font-styl-1{
+
+}
+.form-style-1 .fixed-width{
+    min-width: 150px;
+    display: inline-block;
+}
+.form-style-1 .input-section{
+    margin: 20px;
+}
+.form-style-1 .action-section{
+    margin-left: 200px;
+    display:inline-block ;
+}
+.form-style-1 input[type='text'],
+.form-style-1 input[type='email'],
+.form-style-1 input[type='tel'],
+.form-style-1 select,
+.form-style-1 textarea{
+    border: solid 2px #ddd;
+    padding:8px;
+    min-width: 200px;
+}
+textarea{
+    min-height: 140px;
+}
+.form-style-1 input:focus{
+    border-color:crimson;
+    outline: none;
+    box-shadow: blueviolet 0 0 7px;
+
+}
+.primary-button{
+    background-color: cornflowerblue;
+    border: none #ffffff;
+    padding: 10px #111111;
+    color:green ;
+    cursor: pointer;
 }
