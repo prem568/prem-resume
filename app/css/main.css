@@ -1,29 +1,38 @@
 body{
-    line-height: 1;
+    line-height: 30px;
+        margin:15px ;
+       background-color: lightcoral;
+}
+header{
+    margin: 15px;
+    padding: 18px; 
+    font-size: 20px; 
 }
 
-table{
+table {
     
-    transform-origin: 15px;
+    transform-origin: 55px;
     text-align: center;
-    text-shadow: violet;
-    background-color: rgb(63, 241, 28);
+    background-color: rgb(10, 250, 230);
+    margin: 20px;
+    border-color: black;
 }
 .container{
     width: 500px;  
     margin: auto;
-    background-color: violet;
+    background-color: orange;
     padding: 0px 20px;
     padding-bottom: 10px;
 }
 
 header h1{
-    font-size: 45px;  
+    font-size: 55px;  
     font-family: sans-serif;
-    padding: 15px;
+    padding: 10px;
+    margin: 100px;
+    color: orangered;
 }
 header .connect{
-    background-color: rgb(6, 233, 44);
     padding: 18px;
     margin-bottom: auto;
 }
@@ -52,6 +61,7 @@ header .container{
 .information h3{
     background-color: violet;
     padding: 15px;
+    font-size: 30px;
 
 }
 
