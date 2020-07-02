@@ -21,28 +21,28 @@
 
 ## How to start the npm and lite-server in the machine
 
-*npm init
-*npm install --dev-save lite-server
-*npm start
+* npm init
+* npm install --dev-save lite-server
+* npm start
 
 ## TAKE AWAY FROM THIS TOPIC
 
-# how to used commonly in the HTML
+# how to used commonly in the HTML?
 
-* <p>...</p>
-* <caption>...</caption>
-* <body>...</body>
-* <title>...</title>
-* <img src="" alt="">
-* <h1>...</h1>
-* <a>...</a>
-* <table>...</table>
-* <tr>...</tr>
-* <td>...</td>
-* <th>...</th>
-* <br>
-* <var>...</var>
-* <li>...</li>
+* ` <p>...</p> ` 
+* `<caption>...</caption>`
+* `<body>...</body>`
+* `<title>...</title>`
+* `<img src="image" alt="">`
+* `<h1>...</h1>`
+* `<a>...</a>`
+* `<table>...</table>`
+* `<tr>...</tr>`
+* `<td>...</td>`
+* `<th>...</th>`
+* `<br>`
+* `<var>...</var>`
+* `<li>...</li>`
 
 # how to used commanly in the CSS
 
