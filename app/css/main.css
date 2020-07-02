@@ -4,8 +4,7 @@ body{
        background-color: lightcoral;
 }
 header{
-    margin: 15px;
-    padding: 18px; 
+   border: black;
     font-size: 20px; 
 }
 
