@@ -1,8 +1,7 @@
 
 body{
-    line-height: 30px;
-        margin:15px ;
-       background-color: lightcoral;
+    line-height: 1.5;
+   
 }
 header{
    border: black;
@@ -62,7 +61,7 @@ header .container{
 
 }
 
-}
+
 .information p,
 .information table{
 padding: 25px 15px;
@@ -70,6 +69,9 @@ padding: 25px 15px;
 .information .info-data{
     padding: 25px 15px;
     font-size: 20px;
+}
+.style{
+    text-align: center;
 }
 .table-1{
 
@@ -126,7 +128,18 @@ textarea{
 .primary-button{
     background-color: cornflowerblue;
     border: none #ffffff;
-    padding: 10px #111111;
-    color:green ;
+    padding: 10px 30px;
+    color: #ffffff;
     cursor: pointer;
+}
+.text{
+    margin: 10px 40px;
+}
+
+.error-message{
+    color: crimson;
+    margin-left: 180px;
+    padding: 10px 0 0 0;
+    font-size: 12px;
+    display: none;
 }
