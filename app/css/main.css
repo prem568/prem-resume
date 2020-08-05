@@ -1,26 +1,23 @@
 
 body{
     line-height: 1.5;
-   
 }
 header{
    border: black;
-    font-size: 20px; 
+   font-size: 20px; 
 }
-
-table {
-    
+table {   
     transform-origin: 55px;
     text-align: center;
-    margin: 20px;
+    margin: -15px;
     border-color: black;
+    display: inline;
 }
 .container{
     width: 900px;  
     margin: auto;
     padding: 0px 20px;  
 }
-
 header h1{
     font-size: 55px;  
     font-family: sans-serif;
@@ -32,56 +29,31 @@ header .connect{
     padding: 18px;
     margin-bottom: auto;
 }
-header .connect a:link{
-
-}
-header .connect a:hover{
-
-}
-header .connect a:active{
-
-}
-header .connect a:visited{
-    
-}
 header .container{
     border: yellow;
     margin: 25px;
-
 }
 .information{
-    border: solid 2px;
-    margin: 30px;
-
+    margin: 1px;
 }
 .information h3{
     background-color: violet;
     padding: 15px;
     font-size: 30px;
-
 }
-
-
 .information p,
 .information table{
-padding: 25px 15px;
+padding: 10px 10px;
 }
 .information .info-data{
-    padding: 25px 15px;
+    padding: 5px 10px;
     font-size: 20px;
 }
 .style{
     text-align: center;
 }
-.table-1{
-
-}
-.table-1 tr{
-
-}
 .table-1 td{
-    padding: 10px;
-    margin: 15px;
+    padding: 5px; 
     background-color: sienna;
 }
 .table-1 th{
@@ -92,9 +64,6 @@ padding: 25px 15px;
 .ordered-list-1{
     list-style: lower-alpha;
     list-style-position: inside;
-}
-.font-styl-1{
-
 }
 .form-style-1 .fixed-width{
     min-width: 150px;
@@ -123,7 +92,6 @@ textarea{
     border-color:crimson;
     outline: none;
     box-shadow: blueviolet 0 0 7px;
-
 }
 .primary-button{
     background-color: cornflowerblue;
@@ -135,7 +103,6 @@ textarea{
 .text{
     margin: 10px 40px;
 }
-
 .error-message{
     color: crimson;
     margin-left: 180px;
