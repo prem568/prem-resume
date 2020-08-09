@@ -1,10 +1,14 @@
 
 body{
-    line-height: 1.5;
+    line-height: 2;
+    background-color: #cccccc;
 }
 header{
    border: black;
    font-size: 20px; 
+}
+.info-datas{
+    text-align: center;
 }
 table {   
     transform-origin: 55px;
@@ -37,7 +41,7 @@ header .container{
     margin: 1px;
 }
 .information h3{
-    background-color: violet;
+    background-color: #ee82ee80;
     padding: 15px;
     font-size: 30px;
 }
@@ -48,18 +52,18 @@ padding: 10px 10px;
 .information .info-data{
     padding: 5px 10px;
     font-size: 20px;
+    margin-left: 7px;
 }
 .style{
     text-align: center;
 }
 .table-1 td{
     padding: 5px; 
-    background-color: sienna;
+    background-color: #a0522d7d;
 }
 .table-1 th{
-    background: teal;
-    padding: 10px;
-    border: goldenrod;
+    background:#70bdbdba;
+    padding: 5px;
 }
 .ordered-list-1{
     list-style: lower-alpha;
@@ -82,7 +86,7 @@ padding: 10px 10px;
 .form-style-1 select,
 .form-style-1 textarea{
     border: solid 2px #ddd;
-    padding:8px;
+    padding:8px 30px;
     min-width: 200px;
 }
 textarea{
@@ -109,4 +113,5 @@ textarea{
     padding: 10px 0 0 0;
     font-size: 12px;
     display: none;
+   
 }

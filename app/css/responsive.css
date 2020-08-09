@@ -4,7 +4,7 @@
         color: rgb(30, 15, 236);
     }
     .container{
-        width: 300px;    
+        width: 400px;    
         }
 }
 @media(min-width:769px) and (max-width:1024px){

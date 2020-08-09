@@ -26,9 +26,9 @@
             </div>
             <div class="information">
                 <h3> ACADEMIC PROFILE:-</h3>
-                <div class="info-data">
+                <div class="info-datas">
                     <table border="1" width="100%" cellpadding="10"cellspacing="0" class="table-1">
-                        <tbody>
+                        <tbody class="tbody">
                             <tr>
                                 <th>S.no</th>
                                 <th>CLASS/COURSE</th>
@@ -65,7 +65,7 @@
                     </table>
                 </div>
                 <div class="information">
-                    <h2>TECHNICAL SPECIFICATIONS &SKILL:-</h2>
+                    <h3>TECHNICAL SPECIFICATIONS & SKILL:-</h3>
                     <div class="info-data">
                         <ol class="ordered-list-1">
                             *  Machine operating:grinding,drilling,arc welding,mould loading,unloading<br>
@@ -73,14 +73,14 @@
                         </ol>
                     </div>
                     <div class="information">
-                        <h2>EXPERIENCE:-</h2>
+                        <h3>EXPERIENCE:-</h3>
                     </div>
                     <div class="info-data">
                         *  2 years experience in motherson Automotive Tech.& Engg.<br>
                         *  Operater<br>  
                     </div>
-                    <div>
-                        <h2>PERSONAL  PROFILE :-</h2>
+                    <div class="information">
+                        <h3>PERSONAL PROFILE :-</h3>
                         * Father Name : T.Ramasamy<br>
                         * Mother Name : P.Subbulakshmi<br>
                         * DOB : 07/01/1999<br>
@@ -89,14 +89,15 @@
                         * Nationality : indian<br>
                         * Religion : Hindu <br>
                     </div>
-                    <div class="address">
+                    <div  class="information">
+                        <h3>ADDRESS</h3>
                         Door no : 21  lakshmi nagar ,<br>
                         2nd cross street ,<br>
                         Porur ,chennai-116<br>
                         Thiruvallur district, tamil nadu<br>
                     </div>
-                    <div class="declaration">
-                        <h2> DECLARATION :-</h2>
+                    <div class="information">
+                        <h3>DECLARATION:-</h3>
                         I here by declare that the information and fact stated above are truly and correct to the best of my knowledge 
                     </div>
                     <div CLASS="information">
@@ -106,23 +107,23 @@
                                     <div class="input-section">
                                         <label class="fixed-width" for="full-name">Name</label>
                                         <input type="text" name="fullname" id="full-name">
-                                        <div class="error-message" id="full-name-error">This field is mandatory</div>
+                                       
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="email-id">Email ID</label>
                                         <input type="email"  name="fullname" id="email-id">
-                                        <div class="error-message" id="email-error">This field is mandatory</div>
+                                      
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="mobile-id"> Mobile number</label>
                                         <input type="tel" name="mobile" id="mobile-id">
-                                        <div class="error-message" id="mobile-error">This field is mandatory</div>
+                                      
                                     </div>
                                     <div class="input-section">
                                         <label class="fixed-width" for="">Gender</label>
                                         <input type="radio" name="gender" id="gender-male"> <label for="gender-male">Male</label> 
                                         <input type="radio" name="gender" id="gender-female"> <label for="gender-female">Female</label>
-                                        <div class="error-message" id="gender-error">This field is mandatory</div>
+                                       
                                     </div>
                                     <div class="input-section">
                                         <label  class="fixed-width" for="language">Language known</label>
@@ -135,20 +136,22 @@
                                          <input type="checkbox"  name="lang" id="telugu">
                                               Telugu
                                          <div class="error-message" id="language-error">This field is mandatory</div>
+                                        
                                      </div>
                                      <div class="input-section">
                                         <label  class="fixed-width" for="country">COUNTRY</label>
                                           <select name="country" id="country">
-                                            <option>Select your country</option>
+                                              <option>Select your country</option>
                                               <option value="IND">India</option>
-                                              <option value="PAK">Pakihtan</option>
+                                              <option value="PAK">Pakistan</option>
                                               <option value="CHI">China</option>
                                           </select>
-                                          <div class="error-message" id="country-error">This field is mandatory</div>
+                                          
+                                        
                                       </div>
                                       <div class="input-section">
                                             <label  class="fixed-width" for="">Message</label> 
-                                              <textarea name="Message" id="full-name"></textarea>
+                                            <textarea name="Message" id="full-name"></textarea>
                                       </div>
                                       <div class="action-section">
                                         <input type="submit" value="send" class="primary-button">
@@ -160,105 +163,110 @@
             </div> 
         </div>
     </header>
-</body>
-</html>
   <script>
-       // Initate program when user calls printmessage() function
-      function printMessage(){
-         
-          // Select Name Element
-          var nameElement = document.getElementById('full-name');
+     function printMessage(){
+             var nameElement = document.getElementById('full-name');
+             var username = nameElement.value;
+             var emailElement = document.getElementById('email-id');
+             var usermail = emailElement.value;
+             var output = 'Thank You <strong>' + username + '</strong> for your time. We will send a mail to <strong>' + usermail +'</strong>'; //Concatenation
+             var resultElement = document.getElementById('result');
+             resultElement.innerHTML = output;
+             }
+     function addErrorMessage(targetElement){
+             //check if error message is already avaiable
+             var errorElement = targetElement.parentNode.getElementByclassname('error-message')[0];
 
-          // Fetch &  Store the name in a variable called 'username'
-          var username = nameElement.value;
-
-          // Select Email Element with id value as 'email-id'
-          var emailElement = document.getElementById('email-id');
-
-          //Fetch &  Store the Email ID in a variable called 'useremail'
-           var usermail = emailElement.value;
-
-          // From message by combination_username_,_emailid_,and static text **thank you _username_ for your time.we have to send a mail to _usermail_**
-          // Store the message in a variable called  _output_
-
-          var output = 'Thank You <strong>' + username + '</strong> for your time. We will send a mail to <strong>' + usermail +'</strong>'; //Concatenation
-
-           // Select Result Element
-           var resultElement = document.getElementById('result');
-
-           // Print _output_ in the screen.
-            resultElement.innerHTML = output;
-      }
-      function validateForm(){
-           // check if Name is Element
-           var nameElement = document.getElementById('full-name');
-           var username = nameElement.value;
-           if (username == ""||username == null){
-            document.getElementById('full-name-error'),styledisplay = "block";
-           }else{
-            document.getElementById('full-name-error'),styledisplay = "none";
-           }
-            // check if Email is Element 
-           var emailElement = document.getElementById('email-id');
-           var usermail = emailElement.value;
-           if (usermail == ""||username == null){
-            document.getElementById('email-error'),styledisplay = "block";
-           }else{
-           document.getElementById('email-error'),styledisplay = "none";
-           }
-           // check if Mobile is Element
-           var mobileElement = document.getElementById('mobile-id');
-           var usermobile= mobileElement.value;
-            if (usermobile == ""||username == null){
-                document.getElementById('mobile-error'),styledisplay = "none";    
-            }else{
-            document.getElementById('mobile-error'),styledisplay = "block";            
-           }
-           // check if gender is selected
-           var maleElement = document.getElementById('gender-male'),
-               isMaleElementSelected = maleElement.checked;
-           var femaleElement = document.getElementById('gender-female'),
-               isFemaleElementSelected = femaleElement.checked;
-               if (  isMaleElementSelected||isFemaleElementSelected ){
-                document.getElementById('gender-error'),styledisplay = "block";    
-               }else{
-               document.getElementById('gender-error'),styledisplay = "none";       
-               }
-           // check if at least one Languages is selected
-            var tamilElement = document.getElementById('tamil'),
-                isTamilElementSelected = tamilElement.checked;
-            var EnglishElement = documnt.getElementById('english'),
-                isEnglishElementSelected = englishElement.checked;
-            var MalayalamElement = documnt.getElementById('malayalam'),
-                isMalayalamElementSelected = malayalamElement.checked;
-            var TeluguElement = documnt.getElementById('telugu'),
-                isTeluguElementSelected = teluguElement.checked;
-                if (isTamilElementSelected||isEnglishElementSelected||isMalayalamElementSelected||isTeluguElementSelected){
-                    document.getElementById('language-error'),styledisplay = "block";    
-                }else{
-                document.getElementById('language-error'),styledisplay = "none";       
-                }
-            // check if country is given
+             if (errorElement != undefined){
+             return false
+             }
+             //create a 'div' tag
+             var errorMessageElement = document.createElement('div');
+             //Add text to that tag
+             errorMessageElement.inputHTML = 'This field is mandatory';
+             //Add classname
+             errorMessageElement.classList.add("error-message");
+             targetElement.parentNode.appendChild(errorMessageElement);
+             return  errorMessageElement;
+             }
+     function removeErrorMessage(targetElement){
+             var errorElement = targetElement.parentNode.getElementByclassname('error-message')[0];
+              if (errorElement != undefined){
+              errorElement.parentNode.removeChild(errorElement);
+              } 
+              }
+     function injectElement(){
+     }
+     function validateForm(){
+             var nameElement = document.getElementById('full-name');
+             var username = nameElement.value;
+             if (username == ""||username == null){
+               addErrorMessage(nameElement);
+             }else{
+               removeErrorMessage(nameElement);
+             }
+             var emailElement = document.getElementById('email-id');
+             var usermail = emailElement.value;
+             if (usermail == ""||username == null){
+               addErrorMessage(emailElement);
+             }else{
+               removeErrorMessage(emailElement);
+             }
+             var mobileElement = document.getElementById('mobile-id');
+             var usermobile= mobileElement.value;
+             if (usermobile == ""||username == null){
+                addErrorMessage(mobileElement);
+             }else{
+                removeErrorMessage(mobileElement);
+             }
+             var maleElement = document.getElementById('gender-male'),
+                  isMaleElementSelected = maleElement.checked;
+             var femaleElement = document.getElementById('gender-female'),
+                 isFemaleElementSelected = femaleElement.checked;
+             if (isMaleElementSelected||isFemaleElementSelected ){
+                      removeErrorMessage(maleElement);
+             }else{
+                 addErrorMessage(maleElement);
+                  }
+             var tamilElement = document.getElementById('tamil'),
+                   isTamilElementSelected = tamilElement.checked;
+             var EnglishElement = documnt.getElementById('english'),
+                   isEnglishElementSelected = englishElement.checked;
+             var MalayalamElement = documnt.getElementById('malayalam'),
+                   isMalayalamElementSelected = malayalamElement.checked;
+             var TeluguElement = documnt.getElementById('telugu'),
+                   isTeluguElementSelected = teluguElement.checked;
+             if (isTamilElementSelected||isEnglishElementSelected||isMalayalamElementSelected||isTeluguElementSelected){
+                    addErrorMessage(languagesElement);
+             }else{
+               removeErrorMessage(languagesElement);             
+                  }
             var countryElement = document.getElementById('country'),
-                 country = countryElement.value;
-                 if (country == ""||country== null){
-                    document.getElementById('country-error'),styledisplay = "block";    
-                }else{
-                document.getElementById('country-error'),styledisplay = "none";       
-                 }
-            // check if something is given in textarea   
-            var textareaElement = document.getElementById('textarea');
-            var usertextarea =  textareaElement.value;
-            if (usertextarea == ""||username == null){
-            document.getElementById('textarea -error'),styledisplay = "block";
-            }else{
-            document.getElementById('textarea-error'),styledisplay = "none";
-            }    
-            }
-      var buttonElement = document.getElementById('form-button');
-     
-      buttonElement.addEventListener('click',validateForm);
+                 country = s;
+             if (country == ""||country== null){
+             document.getElementById('country-error'),style.display = "block";    
+             }else{
+             document.getElementById('country-error'),style.display = "none";       
+             }
+             var textareaElement = document.getElementById('textarea');
+             var usertextarea =  textareaElement.value;
+             if (usertextarea == ""||username == null){
+             addErrorMessage(countryElement);           
+             }else{
+              removeErrorMessage(countryElement);
+                  }   
+             }
+             function  sum(x,y){
+             var z = x+y;
+             return z;
+             }
+             var a = 10;
+             var b = 20;
 
+             var c = sum(a,b);
+             console.log(c);
+         var buttonElement = document.getElementById('form-button');
+         buttonElement.addEventListener ('click',validateForm);
   </script>
 </body>  
 </html>
