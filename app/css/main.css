@@ -3,6 +3,9 @@ body{
     line-height: 2;
     background-color: #cccccc;
 }
+.resume{
+    text-align: center;
+}
 header{
    border: black;
    font-size: 20px; 
@@ -17,10 +20,12 @@ table {
     border-color: black;
     display: inline;
 }
+.containers{
+    margin: 20px 0 0 50px;
+}
 .container{
-    width: 900px;  
+    width: 1463px;
     margin: auto;
-    padding: 0px 20px;  
 }
 header h1{
     font-size: 55px;  
@@ -33,12 +38,13 @@ header .connect{
     padding: 18px;
     margin-bottom: auto;
 }
-header .container{
+header .images{
     border: yellow;
-    margin: 25px;
+    border-radius: 8%;
+    margin: -170px 0px 50px 1080px;
 }
-.information{
-    margin: 1px;
+.info-data{
+    margin-left: 21px;
 }
 .information h3{
     background-color: #ee82ee80;
@@ -48,11 +54,6 @@ header .container{
 .information p,
 .information table{
 padding: 10px 10px;
-}
-.information .info-data{
-    padding: 5px 10px;
-    font-size: 20px;
-    margin-left: 7px;
 }
 .style{
     text-align: center;
@@ -69,6 +70,10 @@ padding: 10px 10px;
     list-style: lower-alpha;
     list-style-position: inside;
 }
+.info-data1{
+    margin-left: 21px;
+    margin-bottom: 30px;
+}
 .form-style-1 .fixed-width{
     min-width: 150px;
     display: inline-block;
@@ -79,14 +84,17 @@ padding: 10px 10px;
 .form-style-1 .action-section{
     margin-left: 200px;
     display:inline-block ;
+    cursor: pointer;
 }
 .form-style-1 input[type='text'],
 .form-style-1 input[type='email'],
 .form-style-1 input[type='tel'],
 .form-style-1 select,
 .form-style-1 textarea{
-    border: solid 2px #ddd;
-    padding:8px 30px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #008eff8a;
+    padding: 8px 30px;
     min-width: 200px;
 }
 textarea{
