@@ -1,0 +1,219 @@
+
+@media(min-width:320px){
+    .resume{
+       
+        font-size: 81px;
+        text-align: center;
+        margin: 0 0 0 528px;
+    }
+    .container{
+        width: 1280px;    
+        }
+    .containers h2{
+        font-size: 58px;
+    }
+    .containers a{
+        text-decoration: none;
+        font-size: 58px;
+    }
+    .visit{
+        font-size: 58px;
+    }
+    header .images{
+        width: 360px;
+        border-radius: 8%;
+         margin: -170px 0px 50px 782px;
+    }
+    .information12{
+        font-size: 36px;
+    }
+    .information{
+        font-size: 55px;
+    }
+    .information h3{
+        font-size: 75px;
+    }
+   
+    .form-style-1 input[type='text'],
+    .form-style-1 input[type='email'],
+    .form-style-1 input[type='tel'],
+    .form-style-1 select,
+    .form-style-1 textarea{
+    background: transparent;
+    border: 0;
+    font-size: 61px;
+    border-bottom: 2px solid #ff6800;
+    padding: 8px 197px;
+    min-width: 305px;
+}
+    .primary-button{
+        font-size: 88px;
+        border-radius: 24px;
+        font-family: none;
+    }
+
+}
+@media(min-width:426px){
+        .resume{ 
+            font-size: 60px;
+            text-align: center;
+            margin: 0 0 0 528px;
+        }
+        .container{
+            width: 1280px;    
+            }
+        .containers h2{
+            font-size: 45px;
+        }
+        .containers a{
+            text-decoration: none;
+            font-size: 40px;
+        }
+        header .images{
+            width: 293px;
+            border-radius: 17%;
+            margin: -440px 0px 48px 804px;
+        }
+        .information12{
+            font-size: 29px;
+        }
+        .information{
+            font-size: 40px;
+        }
+        .information h3{
+            font-size: 50px;
+        }
+       
+        .form-style-1 input[type='text'],
+        .form-style-1 input[type='email'],
+        .form-style-1 input[type='tel'],
+        .form-style-1 select,
+        .form-style-1 textarea{
+        background: transparent;
+        border: 0;
+        font-size: 30px;
+        border-bottom: 2px solid #0d00ff;
+        padding: 8px 197px;
+        min-width: 305px;
+    }
+        .primary-button{
+            font-size: 88px;
+            border-radius: 24px;
+            font-family: none;
+            padding: 10px 46px;
+        }
+}
+@media(min-width:768px){
+    .resume{
+        font-size: 50px;
+        text-align: center;
+        margin: 0 0 0 250px;
+    }
+    .container{
+        width: 1280px;    
+        }
+    .containers h2{
+        font-size: 40px;
+    }
+    .containers a{
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .visit{
+        margin-bottom: 20px;
+    }
+    header .images{
+        width: 300px;
+        border-radius: 34%;
+        margin: -341px 0px 68px 873px;
+    }
+    .information12{
+        font-size: 29px;
+    }
+    .information{
+        font-size: 35px;
+    }
+    .information h3{
+        font-size: 40px;
+    }
+   
+    .form-style-1 input[type='text'],
+    .form-style-1 input[type='email'],
+    .form-style-1 input[type='tel'],
+    .form-style-1 select,
+    .form-style-1 textarea{
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+    border-bottom: 2px solid #0d00ff;
+    padding: 8px 197px;
+    min-width: 305px;
+}
+    .primary-button{
+        font-size: 47px;
+        border-radius: 24px;
+        font-family: none;
+        padding: 10px 65px;
+    }
+
+}
+@media(min-width:1440px){
+    
+    header .images {
+        width: 257px;
+        border-radius: 53%;
+        margin: -372px 0px 40px 955px;
+    }
+    .resume{
+        font-size:45px;
+        text-align: center;
+        margin: 0 0 0 0px;
+    }
+    .containers h2{
+        font-size: 40px;
+    }
+    .containers a{
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .visit{
+        margin-bottom: 20px;
+    }
+    .information12{
+        font-size: 29px;
+    }
+    .information{
+        font-size: 30px;
+    }
+    .information h3{
+        font-size: 30px;
+    }
+   
+    .form-style-1 input[type='text'],
+    .form-style-1 input[type='email'],
+    .form-style-1 input[type='tel'],
+    .form-style-1 select,
+    .form-style-1 textarea{
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+    border-bottom: 2px solid #e91e637a;
+    padding: 8px 197px;
+    min-width: 305px;
+}
+.form-style-1 .fixed-width {
+    min-width: 308px;
+    display: inline-block;
+}
+    .primary-button{
+        font-size: 47px;
+        border-radius: 24px;
+        font-family: none;
+        padding: 10px 65px;
+    }
+    
+    .container{
+        width: 1440px;    
+        }
+}
+
