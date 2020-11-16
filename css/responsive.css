@@ -1,7 +1,6 @@
 
 @media(min-width:320px){
     .resume{
-       
         font-size: 81px;
         text-align: center;
         margin: 0 0 0 528px;
@@ -22,7 +21,7 @@
     header .images{
         width: 200px;
         border-radius: 8%;
-         margin: -240px 0px 20px 850px;
+        margin: -240px 0px 20px 850px;
     }
     .information12{
         font-size: 36px;
@@ -42,19 +41,18 @@
     .form-style-1 input[type='tel'],
     .form-style-1 select,
     .form-style-1 textarea{
-    background: transparent;
-    border: 0;
-    font-size: 61px;
-    border-bottom: 2px solid #ff6800;
-    padding: 8px 197px;
-    min-width: 305px;
-}
+        background: transparent;
+        border: 0;
+        font-size: 61px;
+        border-bottom: 2px solid #ff6800;
+        padding: 8px 197px;
+        min-width: 305px;
+    }
     .primary-button{
         font-size: 88px;
         border-radius: 24px;
         font-family: none;
     }
-
 }
 @media(min-width:426px){
         .resume{ 
@@ -64,7 +62,7 @@
         }
         .container{
             width: 1280px;    
-            }
+        }
         .containers h2{
             font-size: 45px;
         }
@@ -95,13 +93,13 @@
         .form-style-1 input[type='tel'],
         .form-style-1 select,
         .form-style-1 textarea{
-        background: transparent;
-        border: 0;
-        font-size: 30px;
-        border-bottom: 2px solid #0d00ff;
-        padding: 8px 197px;
-        min-width: 305px;
-    }
+            background: transparent;
+            border: 0;
+            font-size: 30px;
+            border-bottom: 2px solid #0d00ff;
+            padding: 8px 197px;
+            min-width: 305px;
+        }
         .primary-button{
             font-size: 88px;
             border-radius: 24px;
@@ -151,23 +149,21 @@
     .form-style-1 input[type='tel'],
     .form-style-1 select,
     .form-style-1 textarea{
-    background: transparent;
-    border: 0;
-    font-size: 30px;
-    border-bottom: 2px solid #0d00ff;
-    padding: 8px 197px;
-    min-width: 305px;
-}
+        background: transparent;
+        border: 0;
+        font-size: 30px;
+        border-bottom: 2px solid #0d00ff;
+        padding: 8px 197px;
+        min-width: 305px;
+    }
     .primary-button{
         font-size: 47px;
         border-radius: 24px;
         font-family: none;
         padding: 10px 65px;
     }
-
 }
 @media(min-width:1440px){
-    
     header .images {
         width: 176px;
         border-radius: 53%;
@@ -197,23 +193,22 @@
     .information h3{
         font-size: 25px;
     }
-   
     .form-style-1 input[type='text'],
     .form-style-1 input[type='email'],
     .form-style-1 input[type='tel'],
     .form-style-1 select,
     .form-style-1 textarea{
-    background: transparent;
-    border: 0;
-    font-size: 18px;
-    border-bottom: 2px solid #e91e637a;
-    padding: 0px 50px;
-    min-width: 305px;
-}
+        background: transparent;
+        border: 0;
+        font-size: 18px;
+        border-bottom: 2px solid #e91e637a;
+        padding: 0px 50px;
+        min-width: 305px;
+    }
     .form-style-1 .fixed-width {
         min-width: 308px;
         display: inline-block;
-}
+    }   
     .primary-button{
         font-size:25px;
         border-radius: 24px;
