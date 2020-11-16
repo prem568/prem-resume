@@ -1,6 +1,6 @@
 
 body{
-    line-height: 2;
+    line-height: 1.5;
     background-color: #cccccc;
 }
 .resume{
@@ -8,7 +8,7 @@ body{
 }
 header{
    border: black;
-   font-size: 20px; 
+   font-size: 1px; 
 }
 .info-datas{
     text-align: center;
@@ -25,7 +25,7 @@ table {
 }
 .container{
     width: 1463px;
-    margin: auto;
+    margin: 20px auto;
 }
 header h1{
     font-size: 55px;  
@@ -122,4 +122,8 @@ textarea{
     font-size: 12px;
     display: none;
    
+}
+.checkbox{
+    width: 50px;
+    height: 50px;
 }
