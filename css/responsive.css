@@ -33,7 +33,7 @@
         font-size: 75px;
     }
     .form-style-1 .fixed-width {
-        min-width: 308px;
+        min-width: 1200px;
         display: inline-block;
     }
     .form-style-1 input[type='text'],
@@ -47,6 +47,10 @@
         border-bottom: 2px solid #ff6800;
         padding: 8px 197px;
         min-width: 305px;
+    }
+    input style{
+        width: 30px;
+        height: 30px;
     }
     .primary-button{
         font-size: 88px;
